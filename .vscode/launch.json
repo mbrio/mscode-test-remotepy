@@ -12,7 +12,7 @@
       "remoteRoot": "/home/mbrio/src/mscode-test-remotepy",
       "port": 5678,
       "secret": "my_special_secret",
-      "host": "localhost"
+      "host": "192.168.86.156"
     },
     {
       "name": "Python",

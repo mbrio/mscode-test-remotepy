@@ -3,8 +3,8 @@ import ptvsd
 
 print('Starting PTVSD')
 
-ptvsd.enable_attach('my_special_secret')
-ptvsd.wait_for_attach()
+ptvsd.enable_attach('my_special_secret', address=('0.0.0.0', 5678))
+# ptvsd.wait_for_attach()
 
 print('Starting Application')
 
