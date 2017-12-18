@@ -4,6 +4,9 @@ import ptvsd
 print('Starting PTVSD')
 
 ptvsd.enable_attach('my_special_secret', address=('localhost', 50001))
+
+print('Attach Enabled')
+
 # ptvsd.wait_for_attach()
 
 print('Starting Application')
