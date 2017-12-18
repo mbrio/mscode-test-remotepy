@@ -1,16 +1,10 @@
-import os
 import tensorflow as tf
 import ptvsd
 
 print('Starting PTVSD')
 
-ptvsd.enable_attach('my_special_secret', address=('localhost', 50001))
-
-print('Attach Enabled')
-
-if os.environ['IS_SERVER'] == 'True':
-    print('Waiting for attachment')
-    ptvsd.wait_for_attach()
+ptvsd.enable_attach('my_special_secret')
+ptvsd.wait_for_attach()
 
 print('Starting Application')
 
