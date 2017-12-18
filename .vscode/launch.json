@@ -10,9 +10,9 @@
       "request": "attach",
       "localRoot": "${workspaceFolder}",
       "remoteRoot": "/home/mbrio/src/mscode-test-remotepy",
-      "port": 3000,
+      "port": 50001,
       "secret": "my_special_secret",
-      "host": "192.168.86.156"
+      "host": "localhost"
     },
     {
       "name": "Python",
