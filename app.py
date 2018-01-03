@@ -3,7 +3,7 @@ import time
 import ptvsd
 
 
-ptvsd.enable_attach('my_secret', address=('localhost', 3000))
+ptvsd.enable_attach(None, address=('192.168.86.156', 3000))
 # ptvsd.wait_for_attach()
 
 
