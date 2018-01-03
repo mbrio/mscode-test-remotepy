@@ -1,16 +1,12 @@
-import tensorflow as tf
-import ptvsd
+"""Test code for remote debugging."""
+import time
 
-print('Starting PTVSD')
 
-ptvsd.enable_attach('my_special_secret', address=('0.0.0.0', 5678))
-# ptvsd.wait_for_attach()
+def _transform(t):
+    return t / 2
 
-print('Starting Application')
 
-node1 = tf.constant(3.0, dtype=tf.float32)
-node2 = tf.constant(4.0)
-node3 = node1 * node2
+t = time.time()
+d = _transform(t)
 
-sess = tf.Session()
-print(sess.run([node3]))
+print(d)
