@@ -25,7 +25,7 @@
       "request": "attach",
       "localRoot": "/Users/mbrio/Source/python-debugging",
       "remoteRoot": "/home/mbrio/src/mscode-test-remotepy",
-      "port": 3000,
+      "port": 5678,
       "secret": "",
       "host": "localhost"
     },
