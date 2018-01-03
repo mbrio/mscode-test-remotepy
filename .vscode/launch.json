@@ -27,7 +27,7 @@
       "remoteRoot": "/home/mbrio/src/mscode-test-remotepy",
       "port": 3000,
       "secret": "",
-      "host": "192.168.86.156"
+      "host": "localhost"
     },
     {
       "name": "Python: Terminal (integrated)",
